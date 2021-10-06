@@ -7,3 +7,23 @@ Table, td, th, tr {
 	text-align: center;
 	padding: 10px; 
 }
+
+h1 {
+	color: #5A79A4;
+}
+
+h1:hover {
+	color: blue; 
+}
+
+h2 {
+	background: hsla(270, 60%, 70%, 0.75); 
+	padding: 20px;
+	margin: 20px; 
+	border-color: black; 
+	border-style: dashed;
+}
+
+h1, h2, h3, h4 {
+	display: inline; 
+}
