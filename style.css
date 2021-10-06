@@ -8,6 +8,13 @@ Table, td, th, tr {
 	padding: 10px; 
 }
 
+img {
+	position: absolute;
+	left: 25px;
+	top: 1000px; 
+		
+}
+
 h1 {
 	color: #5A79A4;
 }
@@ -22,8 +29,37 @@ h2 {
 	margin: 20px; 
 	border-color: black; 
 	border-style: dashed;
+	font-family: 'Akronim', cursive;
 }
+
+h2:hover {
+	background: blue; 
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
 
 h1, h2, h3, h4 {
 	display: inline; 
+}
+
+* {
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.left {
+	background: grey; 
+	padding: 20px; 
+	width: 25%; 
+	height: 500px;
+	display: inline-block; 
+	float: left; 
+}
+
+.right {
+	background: #EA8F91;
+	padding: 20px;  
+	width: 65%;
+	height: 500px; 
+	display: inline-block;
+	float: right; 
 }
