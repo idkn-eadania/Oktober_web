@@ -45,21 +45,3 @@ h1, h2, h3, h4 {
 * {
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
-
-.left {
-	background: grey; 
-	padding: 20px; 
-	width: 25%; 
-	height: 500px;
-	display: inline-block; 
-	float: left; 
-}
-
-.right {
-	background: #EA8F91;
-	padding: 20px;  
-	width: 65%;
-	height: 500px; 
-	display: inline-block;
-	float: right; 
-}
