@@ -37,7 +37,17 @@ h2:hover {
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
+.left {
+	background: #B83C3E;
+	width: 25%; 
+	float: left; 
+}
 
+@media screen and (max-width: 600px) {
+	.left {
+		width: 100%;
+	}
+}
 h1, h2, h3, h4 {
 	display: inline; 
 }
