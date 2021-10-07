@@ -43,6 +43,7 @@ h2:hover {
 	float: left; 
 }
 
+
 @media screen and (max-width: 600px) {
 	.left {
 		width: 100%;
